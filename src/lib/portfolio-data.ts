@@ -41,7 +41,7 @@ type PersonalData = {
 };
 
 export const personalData: PersonalData = {
-  name: 'John Doe',
+  name: 'Shakthivel S',
   title: 'Software Engineer',
   bio: 'A passionate software engineer specializing in creating robust and scalable applications. Experienced in both mobile and web development, with a knack for turning complex problems into elegant solutions.',
   skills: [
@@ -56,12 +56,12 @@ export const personalData: PersonalData = {
     'Cloud Functions',
   ],
   socials: [
-    { name: 'GitHub', url: 'https://github.com/johndoe', icon: Github },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/johndoe', icon: Linkedin },
+    { name: 'GitHub', url: 'https://github.com/shakthivel2002', icon: Github },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/shakthivel-s-6761b6210', icon: Linkedin },
   ],
   contacts: [
-    { type: 'Email', value: 'john.doe@email.com', icon: Mail },
-    { type: 'Phone', value: '+1 123 456 7890', icon: Smartphone },
+    { type: 'Email', value: 'shakthivelswami@gmail.com', icon: Mail },
+    { type: 'Phone', value: '+91 63800 51766', icon: Smartphone },
   ],
   projects: [
     {
@@ -83,15 +83,15 @@ export const personalData: PersonalData = {
   ],
   experience: [
     {
-      role: 'Senior Software Engineer',
-      company: 'Tech Solutions Inc.',
-      period: '2020 - Present',
+      role: 'Junior Software Engineer',
+      company: 'Bharat Clouds Private Limited',
+      period: '2024 - Present',
       description: 'Led the development of cross-platform mobile applications using Flutter. Collaborated with product managers and designers to deliver high-quality software solutions. Mentored junior developers.',
     },
     {
-      role: 'Software Engineer',
-      company: 'Web Innovators',
-      period: '2018 - 2020',
+      role: 'Software Engineer Intern',
+      company: 'RansoftWorks Technologies',
+      period: '2023 - 2023',
       description: 'Developed and maintained backend services using Node.js and Express.js. Worked with MySQL and Firebase for data storage and management. Contributed to several web applications.',
     },
   ],
