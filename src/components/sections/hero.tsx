@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { ScrollReveal } from '../scroll-reveal';
+import profile from '../../assets/shakthivel_image.jpg';
 
 export default function HeroSection() {
   return (
@@ -24,7 +25,7 @@ export default function HeroSection() {
           <div className="md:col-span-2 flex justify-center">
             <div className="relative w-[250px] h-[250px] md:w-[350px] md:h-[350px]">
                <Image 
-                src="https://placehold.co/400x400.png"
+                src={profile}
                 alt="Portrait of a developer"
                 width={400}
                 height={400}
@@ -37,21 +38,8 @@ export default function HeroSection() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal delay={200}>
-        <Separator className="my-16 md:my-24 bg-border/50" />
-      </ScrollReveal>
-      
-      <ScrollReveal delay={400}>
-        <Card className="bg-card/50 border-primary/20">
-          <CardHeader>
-            <CardTitle className="font-headline text-2xl text-primary">Need a different bio?</CardTitle>
-            <CardDescription>Overcome writer's block with a little help from AI. Enter some keywords to generate a new summary.</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <AiBioGenerator />
-          </CardContent>
-        </Card>
-      </ScrollReveal>
+     
+
     </section>
   );
 }

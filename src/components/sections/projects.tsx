@@ -19,7 +19,7 @@ export default function ProjectsSection() {
           {personalData.projects.map((project, index) => (
             <ScrollReveal key={project.title} delay={index * 200}>
               <Card className="flex flex-col h-full overflow-hidden bg-card hover:shadow-primary/10 hover:shadow-xl transition-shadow duration-300 border-primary/20">
-                <CardHeader className="p-0">
+                {/* <CardHeader className="p-0">
                   <div className="aspect-video relative">
                     <Image
                       src={project.image}
@@ -29,7 +29,7 @@ export default function ProjectsSection() {
                       data-ai-hint={project.imageHint}
                     />
                   </div>
-                </CardHeader>
+                </CardHeader> */}
                 <CardContent className="flex-1 p-6 space-y-4">
                   <CardTitle className="text-xl font-headline text-primary">{project.title}</CardTitle>
                   <p className="text-muted-foreground">{project.description}</p>
@@ -41,13 +41,13 @@ export default function ProjectsSection() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter className="p-6 pt-0">
+                {/* <CardFooter className="p-6 pt-0">
                   <Button asChild variant="link" className="text-primary p-0">
                     <Link href={project.link}>
                       View Project <ArrowUpRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
             </ScrollReveal>
           ))}

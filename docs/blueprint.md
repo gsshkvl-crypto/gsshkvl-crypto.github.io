@@ -1,4 +1,4 @@
-# **App Name**: Versafolio
+# **App Name**: Shakthivel Techs
 
 ## Core Features:
 
