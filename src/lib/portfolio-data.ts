@@ -77,7 +77,7 @@ export const personalData: PersonalData = {
     { name: 'LinkedIn', url: 'https://linkedin.com/in/shakthivel-s-6761b6210', icon: Linkedin },
   ],
   contacts: [
-    { type: 'Email', value: 'shakthivelpkt@gmail.com', icon: Mail },
+    { type: 'Email', value: 'gsshkvl@gmail.com', icon: Mail },
     { type: 'Phone', value: '+91 63800 51766', icon: Smartphone },
   ],
   projects: [
@@ -99,8 +99,8 @@ export const personalData: PersonalData = {
     },   
     {
       title: 'School Management App',
-      description: 'A comprehensive mobile app designed for school administrators, staff, students, and parents to manage daily operations and communication. Initially developed using native Android (Java/XML), the app was deployed and maintained solely by me on the Play Store. Regularly implementing new features and updates, handling bug fixes, and delivering production releases independently.',
-      technologies: ['Android', 'Java', 'XML', 'REST API', 'Mobile Application', 'Play Store Deployment'],
+       description: 'A comprehensive mobile application developed for school administrators, staff, students, and parents to manage daily operations and communication. Developed using native Android (Java/XML), the application was deployed and maintained on the Google Play Store. Implemented new features, resolved bugs, optimized existing functionality, and independently managed production releases and updates.',
+       technologies: ['Android', 'Java', 'XML', 'REST API', 'Mobile Application', 'Play Store Deployment'],
       link: '#',
       image: 'https://placehold.co/600x400.png',
       imageHint: 'school management system',
@@ -110,9 +110,9 @@ export const personalData: PersonalData = {
     {
       role: 'Junior Software Engineer',
       company: 'Bharat Clouds Private Limited',
-      period: '2024 - Present',
-      description: "Developed mobile applications for Android & iOS using Flutter with GetX state management. Integrated Firebase Cloud Messaging (FCM) for push notifications in Flutter and Android (Java/XML). Working on an existing native Android project to fix bugs, implement features, and deploy on the Play Store. Implemented WebSocket and FCM in the ERP student app for real-time updates and notifications. Built and maintained Node.js + Express.js backend services with MySQL. Collaborated with design/product teams, followed Agile Scrum via Jira, and documented technical workflows. Contributed reusable UI components and improvements to internal codebase; transitioned from Graduate Trainee to full-stack mobile and backend development role.",
-    },
+      period: '2024 - 2026',
+      description: "Developed mobile applications for Android & iOS using Flutter with GetX state management. Integrated Firebase Cloud Messaging (FCM) for push notifications in Flutter and Android (Java/XML). Worked on an existing native Android project to fix bugs, implement features, and deploy updates on the Play Store. Implemented WebSocket and FCM in the ERP student app for real-time updates and notifications. Built and maintained Node.js + Express.js backend services with MySQL. Collaborated with design/product teams, followed Agile Scrum via Jira, and documented technical workflows. Contributed reusable UI components and improvements to the internal codebase; transitioned from Graduate Trainee to a full-stack mobile and backend development role.",
+  },
     {
       role: 'Software Engineer Intern',
       company: 'RansoftWorks Technologies',
